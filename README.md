@@ -14,3 +14,7 @@ This project is a Progressive Web Application (PWA) for an e-commerce platform t
 **Domain:** Web Development
 **Duration:** 2 Months
 **Mentor:** Neela Santhosh Kumar
+
+**Output:**
+![Image](https://github.com/user-attachments/assets/f16d7128-7d97-4e9e-9cf7-5cf0e02bc932)
+![Image](https://github.com/user-attachments/assets/6906b404-a223-4e13-9929-343732098aa4)
