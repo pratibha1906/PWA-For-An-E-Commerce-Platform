@@ -6,3 +6,12 @@ This project is a Progressive Web Application (PWA) for an e-commerce platform t
 **Frontend:** HTML, CSS, JavaScript
 **Backend:** PHP, MySQL
 **PWA Features:** Service Workers, Cache API, Push Notifications
+
+**Below are the details of my internship:**
+
+**Company Name:** CODTECH IT SOLUTIONS PVT.LTD
+**Name:** Pratibha Arun Dhawale
+**Entern ID:** CT12LYQ
+**Domain:** Web Development
+**Duration:** 2 Months
+**Mentor:** Neela Santhosh Kumar
