@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce PWA</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="manifest" href="manifest.json">
+    <script defer src="scripts/app.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>PWA Shop</h1>
+        <button id="cart-btn">Cart (<span id="cart-count">0</span>)</button>
+    </nav>
+
+    <main class="product-container">
+        <!-- Products will be dynamically loaded here -->
+    </main>
+
+    <div id="cart-modal" class="cart-modal">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <p id="cart-total"></p>
+        <button id="close-cart-btn">Close</button>
+    </div>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js')
+            .then(reg => console.log('Service Worker Registered', reg))
+            .catch(err => console.log('Service Worker Error', err));
+        }
+    </script>
+</body>
+</html>
